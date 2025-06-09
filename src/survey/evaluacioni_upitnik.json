@@ -1,0 +1,253 @@
+{
+  "title": {
+    "default": "Evalucioni upitnik",
+    "sr-Cyrl": "Евалуациони упитник"
+  },
+  "locale": "sr-Cyrl",
+  "showQuestionNumbers": "on",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "panel_datum",
+          "elements": [
+            {
+              "type": "text",
+              "name": "datum",
+              "title": {
+                "default": "Datum",
+                "sr-Cyrl": "Датум"
+              },
+              "inputType": "date"
+            },
+            {
+              "type": "html",
+              "name": "datum_suffix",
+              "html": {
+                "default": "godine",
+                "sr-Cyrl": "године"
+              }
+            },
+            {
+              "type": "text",
+              "name": "mesto",
+              "title": {
+                "default": "Mesto održavanja obuke",
+                "sr-Cyrl": "Место одржавања обуке"
+              }
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel_zadovoljstvo",
+          "elements": [
+            {
+              "type": "rating",
+              "displayMode": "buttons",
+              "name": "zadovoljstvo",
+              "title": {
+                "default": "U kojoj meri ste zadovoljni obukom?",
+                "sr-Cyrl": "У којој мери сте задовољни обуком?"
+              },
+              "rateValues": [
+                {
+                  "value": 1,
+                  "text": { "default": "Nimalo", "sr-Cyrl": "нимало" }
+                },
+                {
+                  "value": 2,
+                  "text": { "default": "Delimično", "sr-Cyrl": "делимично" }
+                },
+                {
+                  "value": 3,
+                  "text": {
+                    "default": "U velikoj meri",
+                    "sr-Cyrl": "у великој мери"
+                  }
+                },
+                {
+                  "value": 4,
+                  "text": {
+                    "default": "U potpunosti",
+                    "sr-Cyrl": "у потпуности"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "comment",
+              "name": "komentar1",
+              "title": {
+                "default": "Vaš komentar",
+                "sr-Cyrl": "Ваш коментар"
+              }
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel_znanja",
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "znanja",
+              "title": {
+                "default": "U kojoj meri ste na obuci stekli nova znanja i veštine?",
+                "sr-Cyrl": "У којој мери сте на обуци стекли нова знања и вештине?"
+              },
+              "choices": [
+                {
+                  "value": 1,
+                  "text": {
+                    "default": "Stekao/la sam nova znanja i veštine",
+                    "sr-Cyrl": "Стекао/ла сам нова знања и вештине"
+                  }
+                },
+                {
+                  "value": 2,
+                  "text": {
+                    "default": "Potvrdio/la ono što sam znao/la",
+                    "sr-Cyrl": "Потврдио/ла оно што сам знао/ла"
+                  }
+                },
+                {
+                  "value": 3,
+                  "text": {
+                    "default": "Nisam naučio/la mnogo toga",
+                    "sr-Cyrl": "Нисам научио/ла много тога"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "comment",
+              "name": "komentar2",
+              "title": {
+                "default": "Vaš komentar",
+                "sr-Cyrl": "Ваш коментар"
+              }
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel_korisnost",
+          "elements": [
+            {
+              "type": "paneldynamic",
+              "name": "korisnost_sadrzaja",
+              "title": {
+                "default": "Na skali od 1 do 5 ocenite korisnost pojedinih sadržaja",
+                "sr-Cyrl": "На скали од 1 до 5 оцените корисност појединих садржаја"
+              },
+              "templateElements": [
+                {
+                  "type": "text",
+                  "name": "naziv_teme",
+                  "title": {
+                    "default": "Naziv teme",
+                    "sr-Cyrl": "Назив теме"
+                  }
+                },
+                {
+                  "type": "radiogroup",
+                  "name": "ocena",
+                  "title": {
+                    "default": "Ocena (1–5)",
+                    "sr-Cyrl": "Оцена (1–5)"
+                  },
+                  "choices": ["1", "2", "3", "4", "5"],
+                  "showOtherItem": false
+                }
+              ],
+              "panelCount": 2,
+              "allowAddPanel": false,
+              "allowRemovePanel": false
+            },
+            {
+              "type": "comment",
+              "name": "komentar3",
+              "title": {
+                "default": "Vaš komentar",
+                "sr-Cyrl": "Ваш коментар"
+              }
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel_sloboda",
+          "elements": [
+            {
+              "type": "rating",
+              "name": "sloboda_misljenja",
+              "title": {
+                "default": "U kojoj meri ste imali priliku da izrazite mišljenje tokom obuke?",
+                "sr-Cyrl": "У којој мери сте имали прилику да изразите своје мишљење током обуке?"
+              },
+              "rateValues": [
+                {
+                  "value": 1,
+                  "text": { "default": "Nimalo", "sr-Cyrl": "нимало" }
+                },
+                {
+                  "value": 2,
+                  "text": { "default": "Delimično", "sr-Cyrl": "делимично" }
+                },
+                {
+                  "value": 3,
+                  "text": {
+                    "default": "U velikoj meri",
+                    "sr-Cyrl": "у великој мери"
+                  }
+                },
+                {
+                  "value": 4,
+                  "text": {
+                    "default": "U potpunosti",
+                    "sr-Cyrl": "у потпуности"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "comment",
+              "name": "komentar4",
+              "title": {
+                "default": "Vaš komentar",
+                "sr-Cyrl": "Ваш коментар"
+              }
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel_ocena",
+          "elements": [
+            {
+              "type": "rating",
+              "name": "ocena_voditelja",
+              "title": {
+                "default": "Kako ocenjujete rad voditelja na obuci?",
+                "sr-Cyrl": "Како процењујете рад водитеља на обуци?"
+              },
+              "rateMin": 1,
+              "rateMax": 5
+            },
+            {
+              "type": "comment",
+              "name": "komentar5",
+              "title": {
+                "default": "Vaš komentar",
+                "sr-Cyrl": "Ваш коментар"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

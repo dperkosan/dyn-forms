@@ -1,0 +1,292 @@
+{
+  "title": {
+    "default": "Upitnik za poslodavce",
+    "sr-Cyrl": "Упитник за послодавце"
+  },
+  "locale": "sr-Cyrl",
+  "pages": [
+    {
+      "name": "info_poslodavac",
+      "elements": [
+        {
+          "type": "text",
+          "name": "naziv_poslodavca",
+          "title": {
+            "default": "Naziv poslodavca",
+            "sr-Cyrl": "Назив послодавца"
+          }
+        },
+        {
+          "type": "text",
+          "name": "mb_poslodavca",
+          "title": {
+            "default": "Jedinstveni matični broj poslodavca",
+            "sr-Cyrl": "Јединствени матични број послодавца"
+          }
+        },
+        {
+          "type": "text",
+          "name": "adresa",
+          "title": {
+            "default": "Adresa",
+            "sr-Cyrl": "Адреса"
+          }
+        },
+        {
+          "type": "text",
+          "name": "telefon",
+          "title": {
+            "default": "Telefon",
+            "sr-Cyrl": "Телефон"
+          }
+        },
+        {
+          "type": "text",
+          "name": "email",
+          "title": {
+            "default": "Imejl",
+            "sr-Cyrl": "Имејл"
+          },
+          "inputType": "email"
+        },
+        {
+          "type": "text",
+          "name": "websajt",
+          "title": {
+            "default": "Web sajt",
+            "sr-Cyrl": "Веб сајт"
+          }
+        },
+        {
+          "type": "text",
+          "name": "kontakt_osoba",
+          "title": {
+            "default": "Osoba za kontakt",
+            "sr-Cyrl": "Особa за контакт"
+          }
+        },
+        {
+          "type": "radiogroup",
+          "name": "funkcija_sagovornika",
+          "title": {
+            "default": "Funkcija sagovornika",
+            "sr-Cyrl": "Функција саговорника"
+          },
+          "choices": [
+            {
+              "value": "direktor",
+              "text": {
+                "default": "Direktor/Vlasnik",
+                "sr-Cyrl": "Директор/Власник"
+              }
+            },
+            {
+              "value": "rukovodilac",
+              "text": {
+                "default": "Rukovodilac u funkciji ljudskih resursa",
+                "sr-Cyrl": "Руководилац у функцији људских ресурса"
+              }
+            },
+            {
+              "value": "zaposleni",
+              "text": {
+                "default": "Zaposleni u funkciji ljudskih resursa",
+                "sr-Cyrl": "Запослени у функцији људских ресурса"
+              }
+            },
+            {
+              "value": "drugo",
+              "text": {
+                "default": "Drugo lice",
+                "sr-Cyrl": "Друго лице"
+              }
+            }
+          ],
+          "hasOther": true,
+          "otherText": {
+            "default": "Navedite funkciju/poslove",
+            "sr-Cyrl": "Наведите функцију/послове"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zaposlenost",
+      "elements": [
+        {
+          "type": "text",
+          "name": "zaposleni_2016",
+          "title": {
+            "default": "Broj zaposlenih na dan 31.12.2016.",
+            "sr-Cyrl": "Број запослених на дан 31.12.2016."
+          },
+          "inputType": "number"
+        },
+        {
+          "type": "text",
+          "name": "zaposleni_2017",
+          "title": {
+            "default": "Planirani broj zaposlenih na dan 31.12.2017.",
+            "sr-Cyrl": "Планирани број запослених на дан 31.12.2017."
+          },
+          "inputType": "number"
+        },
+        {
+          "type": "text",
+          "name": "odlazak_2017",
+          "title": {
+            "default": "Broj lica koji će napustiti firmu u 2017.",
+            "sr-Cyrl": "Број лица који ће напустити фирму у 2017."
+          },
+          "inputType": "number"
+        },
+        {
+          "type": "text",
+          "name": "priliv_2017",
+          "title": {
+            "default": "Broj novih zapošljavanja u 2017.",
+            "sr-Cyrl": "Број нових запошљавања у 2017."
+          },
+          "inputType": "number"
+        },
+        {
+          "type": "text",
+          "name": "zaposleni_2018",
+          "title": {
+            "default": "Planirani broj zaposlenih na dan 31.12.2018.",
+            "sr-Cyrl": "Планирани број запослених на дан 31.12.2018."
+          },
+          "inputType": "number"
+        },
+        {
+          "type": "text",
+          "name": "odlazak_2018",
+          "title": {
+            "default": "Broj lica koji će napustiti firmu u 2018.",
+            "sr-Cyrl": "Број лица који ће напустити фирму у 2018."
+          },
+          "inputType": "number"
+        },
+        {
+          "type": "text",
+          "name": "priliv_2018",
+          "title": {
+            "default": "Broj novih zapošljavanja u 2018.",
+            "sr-Cyrl": "Број нових запошљавања у 2018."
+          },
+          "inputType": "number"
+        }
+      ]
+    },
+    {
+      "name": "invaliditet",
+      "elements": [
+        {
+          "type": "text",
+          "name": "invaliditet_2016",
+          "title": {
+            "default": "Broj zaposlenih osoba sa invaliditetom na dan 31.12.2016.",
+            "sr-Cyrl": "Број запослених особа са инвалидитетом на дан 31.12.2016."
+          },
+          "inputType": "number"
+        },
+        {
+          "type": "text",
+          "name": "planirano_invaliditet_2017",
+          "title": {
+            "default": "Planirani broj novih zaposlenih sa invaliditetom u 2017.",
+            "sr-Cyrl": "Планирани број нових запослених са инвалидитетом у 2017."
+          },
+          "inputType": "number"
+        }
+      ]
+    },
+    {
+      "name": "problemi_zaposljavanje",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "problem_nedostatak_radne_snage",
+          "title": {
+            "default": "Da li ste imali problema sa nedostatkom radne snage u 2017?",
+            "sr-Cyrl": "Да ли сте имали проблема са недостатком радне снаге у 2017?"
+          },
+          "choices": [
+            { "value": "da", "text": { "default": "Da", "sr-Cyrl": "Да" } },
+            { "value": "ne", "text": { "default": "Ne", "sr-Cyrl": "Не" } }
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "teskoce_zanimanja",
+          "visibleIf": "{problem_nedostatak_radne_snage} = 'da'",
+          "title": {
+            "default": "Za koja zanimanja ste imali poteškoće?",
+            "sr-Cyrl": "За која занимања сте имали потешкоће?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "nedostajuce_kompetencije",
+      "elements": [
+        {
+          "type": "comment",
+          "name": "nedostajuce_znanja",
+          "title": {
+            "default": "Koja znanja i veštine nedostaju zaposlenima?",
+            "sr-Cyrl": "Која знања и вештине недостају запосленима?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "planirana_zaposlenja",
+      "elements": [
+        {
+          "type": "paneldynamic",
+          "name": "otvorene_pozicije",
+          "title": {
+            "default": "Naznačite radna mesta za koja planirate zapošljavanje",
+            "sr-Cyrl": "Назначите радна места за која планирате запошљавање"
+          },
+          "templateElements": [
+            {
+              "type": "text",
+              "name": "naziv_zanimanja",
+              "title": {
+                "default": "Naziv zanimanja",
+                "sr-Cyrl": "Назив занимања"
+              }
+            },
+            {
+              "type": "text",
+              "name": "stepen_obrazovanja",
+              "title": {
+                "default": "Stepen obrazovanja",
+                "sr-Cyrl": "Степен образовања"
+              }
+            },
+            {
+              "type": "text",
+              "name": "broj_lica",
+              "inputType": "number",
+              "title": {
+                "default": "Broj lica",
+                "sr-Cyrl": "Број лица"
+              }
+            }
+          ],
+          "panelAddText": {
+            "default": "Dodaj poziciju",
+            "sr-Cyrl": "Додај позицију"
+          },
+          "panelCount": 1,
+          "minPanelCount": 1,
+          "allowAddPanel": true,
+          "allowRemovePanel": true
+        }
+      ]
+    }
+  ]
+}

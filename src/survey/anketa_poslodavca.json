@@ -1,0 +1,136 @@
+{
+  "title": {
+    "default": "Anketa poslodavaca – zapošljavanje osoba sa invaliditetom",
+    "sr-Cyrl": "Анкета послодаваца – запошљавање особа са инвалидитетом"
+  },
+  "locale": "sr-Cyrl",
+  "showQuestionNumbers": "on",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "zaposleni_sa_invaliditetom",
+          "title": {
+            "default": "Da li u kompaniji imate zaposlene osobe sa invaliditetom i ako imate, na kojim pozicijama se nalaze?",
+            "sr-Cyrl": "Да ли у компанији имате запослене особе са инвалидитетом и ако имате, на којим позицијама се налазе?"
+          },
+          "description": {
+            "default": "Označite samo jedan odgovor.",
+            "sr-Cyrl": "Означите само један овал."
+          },
+          "choices": [
+            {
+              "value": "da",
+              "text": { "default": "Da", "sr-Cyrl": "Да" }
+            },
+            {
+              "value": "ne",
+              "text": { "default": "Ne", "sr-Cyrl": "Не" }
+            }
+          ],
+          "hasOther": true,
+          "otherText": {
+            "default": "Ostalo",
+            "sr-Cyrl": "Остало"
+          }
+        },
+        {
+          "type": "comment",
+          "name": "pozicije_za_angazovanje",
+          "title": {
+            "default": "Na kojim pozicijama biste angažovali osobe sa invaliditetom?",
+            "sr-Cyrl": "На којим позицијама бисте ангажовали особе са инвалидитетом?"
+          }
+        },
+        {
+          "type": "radiogroup",
+          "name": "radno_mesto_prilagodjeno",
+          "title": {
+            "default": "Da li je radno mesto (mesta) prilagođeno osobama sa invaliditetom?",
+            "sr-Cyrl": "Да ли је радно место (места) прилагођено особама са инвалидитетом?"
+          },
+          "description": {
+            "default": "Označite samo jedan odgovor.",
+            "sr-Cyrl": "Означите само један овал."
+          },
+          "choices": [
+            {
+              "value": "da",
+              "text": { "default": "Da", "sr-Cyrl": "Да" }
+            },
+            {
+              "value": "ne",
+              "text": { "default": "Ne", "sr-Cyrl": "Не" }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "interesovanje_za_seminare",
+          "title": {
+            "default": "Da li ste zainteresovani da učestvujete na edukativno-informativnim seminarima za poslodavce koji zapošljavaju osobe sa invaliditetom u organizaciji Nacionalne službe za zapošljavanje?",
+            "sr-Cyrl": "Да ли сте заинтересовани да учествујете на едукативно-информативним семинарима за послодавце који запошљавају особе са инвалидитетом у организацији Националне службе за запошљавање?"
+          },
+          "description": {
+            "default": "Označite samo jedan odgovor.",
+            "sr-Cyrl": "Означите само један овал."
+          },
+          "choices": [
+            {
+              "value": "da",
+              "text": { "default": "Da", "sr-Cyrl": "Да" }
+            },
+            {
+              "value": "ne",
+              "text": { "default": "Ne", "sr-Cyrl": "Не" }
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "oblasti_saradnje",
+          "title": {
+            "default": "U kojim oblastima želite buduću saradnju sa Nacionalnom službom za zapošljavanje?",
+            "sr-Cyrl": "У којим областима желите будућу сарадњу са Националном службом за запошљавање?"
+          },
+          "description": {
+            "default": "Izaberite sve što važi.",
+            "sr-Cyrl": "Изаберите све што важи."
+          },
+          "choices": [
+            {
+              "value": "preselekcija",
+              "text": {
+                "default": "Preselekcija nezaposlenih osoba sa invaliditetom po kriterijumima koje želite",
+                "sr-Cyrl": "Предселекција незапослених особа са инвалидитетом по критеријумима које желите"
+              }
+            },
+            {
+              "value": "finansijska_podrska",
+              "text": {
+                "default": "Finansijska podrška prilikom zapošljavanja osoba sa invaliditetom",
+                "sr-Cyrl": "Финансијска подршка приликом запошљавања особа са инвалидитетом"
+              }
+            },
+            {
+              "value": "oglasavanje",
+              "text": {
+                "default": "Oglašavanje u publikaciji 'Poslovi', na veb sajtu i društvenim mrežama",
+                "sr-Cyrl": "Оглашавање у публикацији 'Послови', на веб сајту и друштвеним мрежама"
+              }
+            },
+            {
+              "value": "sajmovi",
+              "text": {
+                "default": "Učešće na sajmovima zapošljavanja",
+                "sr-Cyrl": "Учествовање на сајмовима запошљавања"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

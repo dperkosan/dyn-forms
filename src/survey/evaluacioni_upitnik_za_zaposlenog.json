@@ -1,0 +1,299 @@
+{
+  "title": {
+    "default": "Evaluacioni upitnik za zaposlenog koji se uvodi u posao",
+    "sr-Cyrl": "Евалуациони упитник за запосленог који се уводи у посао"
+  },
+  "locale": "sr-Cyrl",
+  "showQuestionNumbers": "on",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "panel_opsti_podaci",
+          "elements": [
+            {
+              "type": "text",
+              "name": "datum",
+              "inputType": "date",
+              "title": {
+                "default": "Datum",
+                "sr-Cyrl": "Датум"
+              }
+            },
+            {
+              "type": "text",
+              "name": "ime_prezime",
+              "title": {
+                "default": "Ime i prezime zaposlenog",
+                "sr-Cyrl": "Име и презиме запосленог"
+              }
+            },
+            {
+              "type": "text",
+              "name": "radno_mesto",
+              "title": {
+                "default": "Radno mesto",
+                "sr-Cyrl": "Радно место"
+              }
+            },
+            {
+              "type": "text",
+              "name": "org_jedinica",
+              "title": {
+                "default": "Organizaciona jedinica",
+                "sr-Cyrl": "Организациона јединица"
+              }
+            },
+            {
+              "type": "html",
+              "name": "uvod",
+              "html": {
+                "default": "Molimo Vas da popunite obrazac koji je pred Vama. Podaci će biti korišćeni za unapređenje programa.",
+                "sr-Cyrl": "Молимо Вас да попуните образац који је пред Вама. Подаци ће бити коришћени за унапређење програма."
+              }
+            }
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "sadrzaj_programa",
+          "title": {
+            "default": "Sadržaj programa",
+            "sr-Cyrl": "Садржај програма"
+          },
+          "columns": [
+            {
+              "value": "ispod",
+              "text": {
+                "default": "Ispod očekivanog",
+                "sr-Cyrl": "Испод очекиваног"
+              }
+            },
+            {
+              "value": "ocekivano",
+              "text": { "default": "Očekivano", "sr-Cyrl": "Очекивано" }
+            },
+            {
+              "value": "iznad",
+              "text": {
+                "default": "Iznad očekivanog",
+                "sr-Cyrl": "Изнад очекиваног"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "jasnost_ciljeva",
+              "text": {
+                "default": "Jasnost ciljeva programa",
+                "sr-Cyrl": "Јасност циљева програма"
+              }
+            },
+            {
+              "value": "ostvarenost",
+              "text": {
+                "default": "Ostvarenost ciljeva programa",
+                "sr-Cyrl": "Оствареност циљева програма"
+              }
+            },
+            {
+              "value": "usmerenost",
+              "text": {
+                "default": "Sadržaj je usmeren na realizaciju definisanog cilja obuke",
+                "sr-Cyrl": "Садржај је усмерен на реализацију дефинисаног циља обуке"
+              }
+            },
+            {
+              "value": "tezina",
+              "text": {
+                "default": "Sadržaj obuke je bio odgovarajuće težine",
+                "sr-Cyrl": "Садржај обуке је био одговарајуће тежине"
+              }
+            },
+            {
+              "value": "trajanje",
+              "text": {
+                "default": "Trajanje obuke je usklađeno sa obimom i težinom sadržaja",
+                "sr-Cyrl": "Трајање обуке је усклађено са обимом и тежином садржаја"
+              }
+            },
+            {
+              "value": "primeri",
+              "text": {
+                "default": "Teorijski sadržaj je propracen adekvatnim primerima iz prakse",
+                "sr-Cyrl": "Теоријски садржај је пропраћен адекватним примерима из праксе"
+              }
+            }
+          ],
+          "cellType": "radiogroup"
+        },
+        {
+          "type": "matrix",
+          "name": "mentor",
+          "title": {
+            "default": "Mentor",
+            "sr-Cyrl": "Ментор"
+          },
+          "columns": [
+            {
+              "value": "ispod",
+              "text": {
+                "default": "Ispod očekivanog",
+                "sr-Cyrl": "Испод очекиваног"
+              }
+            },
+            {
+              "value": "ocekivano",
+              "text": { "default": "Očekivano", "sr-Cyrl": "Очекивано" }
+            },
+            {
+              "value": "iznad",
+              "text": {
+                "default": "Iznad očekivanog",
+                "sr-Cyrl": "Изнад очекиваног"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "materija",
+              "text": {
+                "default": "Vlada materijom koju prezentuje",
+                "sr-Cyrl": "Влада материјом коју презентује"
+              }
+            },
+            {
+              "value": "jasno",
+              "text": {
+                "default": "Na jasan način prezentuje sadržaj",
+                "sr-Cyrl": "На јасан начин презентује садржај"
+              }
+            },
+            {
+              "value": "usmeravanje",
+              "text": {
+                "default": "Prati i adekvatno usmerava rad",
+                "sr-Cyrl": "Прати и адекватно усмерава рад"
+              }
+            },
+            {
+              "value": "ucesce",
+              "text": {
+                "default": "Podstiče aktivno učešće",
+                "sr-Cyrl": "Подстиче активно учешће"
+              }
+            }
+          ],
+          "cellType": "radiogroup"
+        },
+        {
+          "type": "matrix",
+          "name": "radni_materijal",
+          "title": {
+            "default": "Radni materijal",
+            "sr-Cyrl": "Радни материјал"
+          },
+          "columns": [
+            {
+              "value": "ispod",
+              "text": {
+                "default": "Ispod očekivanog",
+                "sr-Cyrl": "Испод очекиваног"
+              }
+            },
+            {
+              "value": "ocekivano",
+              "text": { "default": "Očekivano", "sr-Cyrl": "Очекивано" }
+            },
+            {
+              "value": "iznad",
+              "text": {
+                "default": "Iznad očekivanog",
+                "sr-Cyrl": "Изнад очекиваног"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "prati",
+              "text": {
+                "default": "Prati sadržaj programa",
+                "sr-Cyrl": "Прати садржај програма"
+              }
+            },
+            {
+              "value": "razumljivo",
+              "text": {
+                "default": "Napisan je razumljivo",
+                "sr-Cyrl": "Написан је разумљиво"
+              }
+            },
+            {
+              "value": "pomoc",
+              "text": {
+                "default": "Pogodan kao pomoć u kasnijem radu",
+                "sr-Cyrl": "Погодан као помоћ у каснијем раду"
+              }
+            }
+          ],
+          "cellType": "radiogroup"
+        },
+        {
+          "type": "matrix",
+          "name": "organizacija",
+          "title": {
+            "default": "Organizacija",
+            "sr-Cyrl": "Организација"
+          },
+          "columns": [
+            {
+              "value": "ispod",
+              "text": {
+                "default": "Ispod očekivanog",
+                "sr-Cyrl": "Испод очекиваног"
+              }
+            },
+            {
+              "value": "ocekivano",
+              "text": { "default": "Očekivano", "sr-Cyrl": "Очекивано" }
+            },
+            {
+              "value": "iznad",
+              "text": {
+                "default": "Iznad očekivanog",
+                "sr-Cyrl": "Изнад очекиваног"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "informacije",
+              "text": {
+                "default": "Informacije su blagovremene i precizne",
+                "sr-Cyrl": "Информације су благовремене и прецизне"
+              }
+            },
+            {
+              "value": "uslovi",
+              "text": {
+                "default": "Radni uslovi su primereni načinu rada",
+                "sr-Cyrl": "Радни услови су примерени начину рада"
+              }
+            }
+          ],
+          "cellType": "radiogroup"
+        },
+        {
+          "type": "comment",
+          "name": "komentar",
+          "title": {
+            "default": "Opšti utisak, komentar, predlozi",
+            "sr-Cyrl": "Општи утисак, коментар, предлози"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "title": {
+    "default": "Dodatak upitniku za poslodavce",
+    "sr-Cyrl": "Додатак упитнику за послодавце"
+  },
+  "locale": "sr-Cyrl",
+  "showQuestionNumbers": "on",
+  "pages": [
+    {
+      "name": "informacije",
+      "elements": [
+        {
+          "type": "text",
+          "name": "sifra_nsz",
+          "title": {
+            "default": "Šifra organizacione jedinice NSZ",
+            "sr-Cyrl": "Шифра организационе јединице НСЗ"
+          }
+        },
+        {
+          "type": "text",
+          "name": "sifra_anketara",
+          "title": {
+            "default": "Šifra anketara",
+            "sr-Cyrl": "Шифра анкетара"
+          }
+        },
+        {
+          "type": "text",
+          "name": "naziv_poslodavca",
+          "title": {
+            "default": "Naziv poslodavca",
+            "sr-Cyrl": "Назив послодавца"
+          }
+        },
+        {
+          "type": "text",
+          "name": "maticni_broj",
+          "title": {
+            "default": "Matični broj poslodavca",
+            "sr-Cyrl": "Матични број послодавца"
+          }
+        },
+        {
+          "type": "text",
+          "name": "pretežna_delatnost",
+          "title": {
+            "default": "Pretežna delatnost",
+            "sr-Cyrl": "Претежна делатност"
+          }
+        },
+        {
+          "type": "text",
+          "name": "adresa",
+          "title": {
+            "default": "Adresa",
+            "sr-Cyrl": "Адреса"
+          }
+        }
+      ]
+    },
+    {
+      "name": "deficitarna_zanimanja",
+      "elements": [
+        {
+          "type": "comment",
+          "name": "p1_deficitarna_zanimanja",
+          "title": {
+            "default": "Koja su deficitarna zanimanja na tržištu rada po vašoj proceni?",
+            "sr-Cyrl": "Која су дефицитарна занимања на тржишту рада по Вашој процени?"
+          }
+        },
+        {
+          "type": "comment",
+          "name": "p2_poteskoce",
+          "title": {
+            "default": "Koji su najbitniji razlozi poteškoća u nalaženju kadrova (obrazovanje, iskustvo...)?",
+            "sr-Cyrl": "Који су најбитнији разлози потешкоћа у налажењу кадрова (образовање, искуство...)?"
+          }
+        },
+        {
+          "type": "radiogroup",
+          "name": "p3_internalna_obuka",
+          "title": {
+            "default": "Da li imate iskustva u internom obučavanju kandidata za deficitarna zanimanja?",
+            "sr-Cyrl": "Да ли имате искуства у интерном обучавању кандидата за дефицитарна занимања?"
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "radiogroup",
+          "name": "p4_uslovi_za_obuku",
+          "title": {
+            "default": "Da li imate adekvatne uslove za realizaciju obuka?",
+            "sr-Cyrl": "Да ли имате адекватне услове за реализацију обука?"
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "comment",
+          "name": "p5_misljenje_obuke",
+          "title": {
+            "default": "Kakvo je vaše mišljenje o organizovanju internih obuka?",
+            "sr-Cyrl": "Какво је ваше мишљење о организовању интерних обука?"
+          }
+        },
+        {
+          "type": "radiogroup",
+          "name": "p6_zelja_za_obuku",
+          "title": {
+            "default": "Da li želite da realizujete obuku po Vašem programu?",
+            "sr-Cyrl": "Да ли желите да реализујете обуку по Вашем програму?"
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "radiogroup",
+          "name": "p7_pomoc_u_prilagodjavanju",
+          "title": {
+            "default": "Ako je odgovor NE, da li biste pomogli organizaciji da prilagodi program?",
+            "sr-Cyrl": "Ако је одговор НЕ, да ли бисте помогли организацији да прилагоди програм?"
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "radiogroup",
+          "name": "p8_zaposljavanje_posle_obuke",
+          "title": {
+            "default": "Da li biste zaposlili lica obučena kroz neformalne obuke?",
+            "sr-Cyrl": "Да ли бисте запослили лица обучена кроз неформалне обуке?"
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "comment",
+          "name": "p8_objasnjenje",
+          "title": {
+            "default": "Zašto (DA ili NE)?",
+            "sr-Cyrl": "Зашто (ДА или НЕ)?"
+          }
+        },
+        {
+          "type": "comment",
+          "name": "p9_pocetne_zarade",
+          "title": {
+            "default": "Koliko su početne zarade za deficitarna zanimanja?",
+            "sr-Cyrl": "Колико су почетне зараде за дефицитарна занимања?"
+          }
+        },
+        {
+          "type": "radiogroup",
+          "name": "p10_povecanje_zarade",
+          "title": {
+            "default": "Postoji li mogućnost povećanja zarade u odnosu na iskustvo?",
+            "sr-Cyrl": "Постоји ли могућност повећања зараде у односу на искуство?"
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "comment",
+          "name": "p10_objasnjenje",
+          "title": {
+            "default": "Zašto (DA ili NE)?",
+            "sr-Cyrl": "Зашто (ДА или НЕ)?"
+          }
+        },
+        {
+          "type": "radiogroup",
+          "name": "p11_fluktuacija",
+          "title": {
+            "default": "Da li je izražena fluktuacija navedenih zanimanja?",
+            "sr-Cyrl": "Да ли је изражена флуктуација наведених занимања?"
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "comment",
+          "name": "p11_objasnjenje",
+          "title": {
+            "default": "Zašto (DA ili NE)?",
+            "sr-Cyrl": "Зашто (ДА или НЕ)?"
+          }
+        },
+        {
+          "type": "radiogroup",
+          "name": "p12_odlazak_inostranstvo",
+          "title": {
+            "default": "Da li imate saznanja da lica odlaze u inostranstvo?",
+            "sr-Cyrl": "Да ли имате сазнања да лица одлазе у иностранство?"
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "comment",
+          "name": "p13_efikasni_nacini",
+          "title": {
+            "default": "Koji su najeefikasniji načini za obezbeđivanje kadrova?",
+            "sr-Cyrl": "Који су најефикаснији начини за обезбеђивање кадрова?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dualno_obrazovanje",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "p14_dualno",
+          "title": {
+            "default": "Da li ste zainteresovani za uključivanje u dualno obrazovanje?",
+            "sr-Cyrl": "Да ли сте заинтересовани за укључивање у дуално образовање?"
+          },
+          "description": {
+            "default": "Učenici provode 1–2 dana nedeljno u firmi, dobijaju naknadu i obrok.",
+            "sr-Cyrl": "Ученици проводе 1–2 дана недељно у фирми, добијају накнаду и оброк."
+          },
+          "choices": ["DA", "NE"]
+        },
+        {
+          "type": "comment",
+          "name": "p15_koji_profili",
+          "title": {
+            "default": "Za koje obrazovne profile?",
+            "sr-Cyrl": "За које образовне профиле?"
+          }
+        }
+      ]
+    }
+  ]
+}

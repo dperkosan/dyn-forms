@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "survey-core/survey-core.css";
+
 
 :root {
   --background: #ffffff;

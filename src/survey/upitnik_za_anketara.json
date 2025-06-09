@@ -1,0 +1,316 @@
+{
+  "title": {
+    "default": "Upitnik za anketara - poslodavci",
+    "sr-Cyrl": "Упитник за анкетара - послодавци"
+  },
+  "locale": "sr-Cyrl",
+  "showQuestionNumbers": "on",
+  "pages": [
+    {
+      "name": "deo_1A",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "koristili_uslugu_nsz",
+          "title": {
+            "default": "Da li ste u poslednjih pola godine koristili uslugu posredovanja u zapošljavanju od strane NSZ?",
+            "sr-Cyrl": "Да ли сте у последњих пола године користили услугу посредовања у запошљавању од стране НСЗ?"
+          },
+          "choices": [
+            { "value": "da", "text": { "default": "Da", "sr-Cyrl": "Да" } },
+            { "value": "ne", "text": { "default": "Ne", "sr-Cyrl": "Не" } }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "zadovoljni_kandidatima",
+          "title": {
+            "default": "Da li ste bili zadovoljni upućenim kandidatima od strane NSZ?",
+            "sr-Cyrl": "Да ли сте били задовољни упућеним кандидатима од стране НСЗ?"
+          },
+          "choices": [
+            { "value": "da", "text": { "default": "Da", "sr-Cyrl": "Да" } },
+            { "value": "ne", "text": { "default": "Ne", "sr-Cyrl": "Не" } }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "kandidati_ispunjavaju_uslove",
+          "title": {
+            "default": "Da li su kandidati ispunjavali Vaše zahteve?",
+            "sr-Cyrl": "Да ли су кандидати испуњавали Ваше захтеве?"
+          },
+          "choices": [
+            { "value": "da", "text": { "default": "Da", "sr-Cyrl": "Да" } },
+            { "value": "ne", "text": { "default": "Ne", "sr-Cyrl": "Не" } }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "obavesteni_o_odstupanjima",
+          "title": {
+            "default": "Da li Vas je savetnik iz NSZ unapred obavestio o odstupanjima?",
+            "sr-Cyrl": "Да ли Вас је саветник из НСЗ унапред обавестио о одступањима?"
+          },
+          "choices": [
+            { "value": "da", "text": { "default": "Da", "sr-Cyrl": "Да" } },
+            { "value": "ne", "text": { "default": "Ne", "sr-Cyrl": "Не" } }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deo_1B",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "zadovoljstvo_uslugama_nsz",
+          "title": {
+            "default": "U kojoj meri ste bili zadovoljni sledećim aspektima usluga NSZ:",
+            "sr-Cyrl": "У којој мери сте били задовољни следећим аспектима услуга НСЗ:"
+          },
+          "columns": [
+            {
+              "value": "1",
+              "text": {
+                "default": "1 - Potpuno zadovoljni",
+                "sr-Cyrl": "1 - ПОТПУНО задовољни"
+              }
+            },
+            { "value": "2", "text": { "default": "2", "sr-Cyrl": "2" } },
+            { "value": "3", "text": { "default": "3", "sr-Cyrl": "3" } },
+            { "value": "4", "text": { "default": "4", "sr-Cyrl": "4" } },
+            { "value": "5", "text": { "default": "5", "sr-Cyrl": "5" } },
+            {
+              "value": "6",
+              "text": {
+                "default": "6 - Potpuno nezadovoljni",
+                "sr-Cyrl": "6 - ПОТПУНО незадовољни"
+              }
+            },
+            {
+              "value": "ne_znam",
+              "text": { "default": "Ne znam", "sr-Cyrl": "НЕ ЗНАМ" }
+            }
+          ],
+          "rows": [
+            {
+              "value": "pravovremenost",
+              "text": {
+                "default": "Pravovremenost informacija o uslugama",
+                "sr-Cyrl": "Правовременошћу информација о услугама"
+              }
+            },
+            {
+              "value": "dostupnost",
+              "text": {
+                "default": "Dostupnost informacija",
+                "sr-Cyrl": "Доступношћу информација"
+              }
+            },
+            {
+              "value": "razumljivost",
+              "text": {
+                "default": "Razumljivost informacija",
+                "sr-Cyrl": "Разумљивошћу информација"
+              }
+            },
+            {
+              "value": "pristup_savetnika",
+              "text": {
+                "default": "Pristup savetnika za rešavanje potrebe",
+                "sr-Cyrl": "Приступ саветника за решавање потребе"
+              }
+            },
+            {
+              "value": "spremnost_savetnika",
+              "text": {
+                "default": "Spremnost savetnika da pomogne",
+                "sr-Cyrl": "Спремношћу саветника да помогне"
+              }
+            },
+            {
+              "value": "obim_dok",
+              "text": {
+                "default": "Obim traženih informacija/dokumenata",
+                "sr-Cyrl": "Обимом тражених информација/докумената"
+              }
+            },
+            {
+              "value": "trajanje_procesa",
+              "text": {
+                "default": "Trajanje procesa od zahteva do usluge",
+                "sr-Cyrl": "Трајањем процеса од захтева до услуге"
+              }
+            },
+            {
+              "value": "korisnost_usluge",
+              "text": {
+                "default": "Korisnost usluge za poslovne rezultate",
+                "sr-Cyrl": "Корисност услуге за пословне резултате"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deo_2_sajam",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "ucestvovao_na_sajmu",
+          "title": {
+            "default": "Da li ste u poslednjih pola godine učestvovali na sajmu zapošljavanja u organizaciji NSZ?",
+            "sr-Cyrl": "Да ли сте у последњих пола године учествовали на сајму запошљавања у организацији НСЗ?"
+          },
+          "choices": [
+            { "value": "da", "text": { "default": "Da", "sr-Cyrl": "Да" } },
+            { "value": "ne", "text": { "default": "Ne", "sr-Cyrl": "Не" } }
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "sajam_ocene",
+          "visibleIf": "{ucestvovao_na_sajmu} = 'da'",
+          "title": {
+            "default": "Ako jeste, ocenite:",
+            "sr-Cyrl": "Ако јесте, оцените:"
+          },
+          "columns": ["1", "2", "3", "4", "5", "6", "ne_znam"],
+          "rows": [
+            {
+              "value": "organizacija_sajma",
+              "text": {
+                "default": "Organizaciju sajma",
+                "sr-Cyrl": "Организацију сајма"
+              }
+            },
+            {
+              "value": "kadrovske_potrebe",
+              "text": {
+                "default": "Zadovoljenje kadrovskih potreba",
+                "sr-Cyrl": "Задовољење кадровских потреба"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deo_3_sajt",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "posecivali_sajt",
+          "title": {
+            "default": "Da li ste u poslednjih pola godine posećivali sajt NSZ?",
+            "sr-Cyrl": "Да ли сте у последњих пола године посећивали сајт НСЗ?"
+          },
+          "choices": [
+            { "value": "da", "text": { "default": "Da", "sr-Cyrl": "Да" } },
+            { "value": "ne", "text": { "default": "Ne", "sr-Cyrl": "Не" } }
+          ]
+        },
+        {
+          "type": "matrix",
+          "name": "ocena_sajta",
+          "visibleIf": "{posecivali_sajt} = 'da'",
+          "title": {
+            "default": "Ako jeste, ocenite sledeće:",
+            "sr-Cyrl": "Ако јесте, оцените следеће:"
+          },
+          "columns": ["1", "2", "3", "4", "5", "6", "ne_znam"],
+          "rows": [
+            {
+              "value": "kvalitet_info",
+              "text": {
+                "default": "Kvalitet pruženih informacija",
+                "sr-Cyrl": "Квалитет пружених информација"
+              }
+            },
+            {
+              "value": "lako_koriscenje",
+              "text": {
+                "default": "Lakoća korišćenja",
+                "sr-Cyrl": "«Лакоћа» коришћења"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deo_4_opsti_utisci",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "opsti_utisci",
+          "title": {
+            "default": "Saglasnost sa sledećim tvrdnjama:",
+            "sr-Cyrl": "Сагласност са следећим тврдњама:"
+          },
+          "columns": ["1", "2", "3", "4", "5", "6", "ne_znam"],
+          "rows": [
+            {
+              "value": "najbolje_usluge",
+              "text": {
+                "default": "NSZ pruža najbolje moguće usluge",
+                "sr-Cyrl": "НСЗ као институција пружа ми најбоље могуће услуге"
+              }
+            },
+            {
+              "value": "ispunjava_ocekivanja",
+              "text": {
+                "default": "NSZ ispunjava moja očekivanja",
+                "sr-Cyrl": "НСЗ испуњава моја очекивања"
+              }
+            },
+            {
+              "value": "fleksibilnost",
+              "text": {
+                "default": "NSZ je fleksibilna i prilagodljiva",
+                "sr-Cyrl": "НСЗ је флексибилна и прилагођава се"
+              }
+            },
+            {
+              "value": "pozitivne_promene",
+              "text": {
+                "default": "Primećene pozitivne promene u radu",
+                "sr-Cyrl": "Приметио сам позитивне промене у раду"
+              }
+            },
+            {
+              "value": "informisanost",
+              "text": {
+                "default": "Dobro sam informisan o uslugama",
+                "sr-Cyrl": "Добро сам информисан о услугама"
+              }
+            },
+            {
+              "value": "nastavicemo_saradnju",
+              "text": {
+                "default": "Nastavićemo saradnju sa NSZ",
+                "sr-Cyrl": "Наставићемо сарадњу са НСЗ"
+              }
+            },
+            {
+              "value": "preporucicemo_nsz",
+              "text": {
+                "default": "Preporučili bismo NSZ drugima",
+                "sr-Cyrl": "Препоручили бисмо НСЗ осталима"
+              }
+            },
+            {
+              "value": "generalno_zadovoljni",
+              "text": {
+                "default": "Generalno sam zadovoljan",
+                "sr-Cyrl": "Генерално сам задовољан"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
