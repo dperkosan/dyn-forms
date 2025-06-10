@@ -11,22 +11,6 @@
       "elements": [
         {
           "type": "text",
-          "name": "sifra_nsz",
-          "title": {
-            "default": "Šifra organizacione jedinice NSZ",
-            "sr-Cyrl": "Шифра организационе јединице НСЗ"
-          }
-        },
-        {
-          "type": "text",
-          "name": "sifra_anketara",
-          "title": {
-            "default": "Šifra anketara",
-            "sr-Cyrl": "Шифра анкетара"
-          }
-        },
-        {
-          "type": "text",
           "name": "naziv_poslodavca",
           "title": {
             "default": "Naziv poslodavca",
@@ -133,10 +117,20 @@
         },
         {
           "type": "comment",
-          "name": "p8_objasnjenje",
+          "name": "p8_objasnjenje_da",
+          "visibleIf": "{p8_zaposljavanje_posle_obuke} = 'DA'",
           "title": {
-            "default": "Zašto (DA ili NE)?",
-            "sr-Cyrl": "Зашто (ДА или НЕ)?"
+            "default": "Zašto DA?",
+            "sr-Cyrl": "Зашто ДА?"
+          }
+        },
+        {
+          "type": "comment",
+          "name": "p8_objasnjenje_ne",
+          "visibleIf": "{p8_zaposljavanje_posle_obuke} = 'NE'",
+          "title": {
+            "default": "Zašto NE?",
+            "sr-Cyrl": "Зашто НЕ?"
           }
         },
         {
@@ -158,10 +152,20 @@
         },
         {
           "type": "comment",
-          "name": "p10_objasnjenje",
+          "name": "p10_objasnjenje_da",
+          "visibleIf": "{p10_povecanje_zarade} = 'DA'",
           "title": {
-            "default": "Zašto (DA ili NE)?",
-            "sr-Cyrl": "Зашто (ДА или НЕ)?"
+            "default": "Zašto DA?",
+            "sr-Cyrl": "Зашто ДА?"
+          }
+        },
+        {
+          "type": "comment",
+          "name": "p10_objasnjenje_ne",
+          "visibleIf": "{p10_povecanje_zarade} = 'NE'",
+          "title": {
+            "default": "Zašto NE?",
+            "sr-Cyrl": "Зашто НЕ?"
           }
         },
         {

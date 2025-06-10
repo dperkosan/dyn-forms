@@ -234,8 +234,31 @@
                 "default": "Kako ocenjujete rad voditelja na obuci?",
                 "sr-Cyrl": "Како процењујете рад водитеља на обуци?"
               },
-              "rateMin": 1,
-              "rateMax": 5
+              "rateValues": [
+                {
+                  "value": 1,
+                  "text": {
+                    "default": "Loše 1",
+                    "sr-Cyrl": "Лоше 1"
+                  }
+                },
+                {
+                  "value": 2
+                },
+                {
+                  "value": 3
+                },
+                {
+                  "value": 4
+                },
+                {
+                  "value": 5,
+                  "text": {
+                    "default": "5 Odlično",
+                    "sr-Cyrl": "5 Одлично"
+                  }
+                }
+              ]
             },
             {
               "type": "comment",
