@@ -73,24 +73,51 @@
             {
               "value": "1",
               "text": {
-                "default": "1 - Potpuno zadovoljni",
-                "sr-Cyrl": "1 - ПОТПУНО задовољни"
+                "default": "1 – POTPUNO zadovoljni",
+                "sr-Cyrl": "1 – ПОТПУНО задовољни"
               }
             },
-            { "value": "2", "text": { "default": "2", "sr-Cyrl": "2" } },
-            { "value": "3", "text": { "default": "3", "sr-Cyrl": "3" } },
-            { "value": "4", "text": { "default": "4", "sr-Cyrl": "4" } },
-            { "value": "5", "text": { "default": "5", "sr-Cyrl": "5" } },
+            {
+              "value": "2",
+              "text": {
+                "default": "2 – UGLAVNOM zadovoljni",
+                "sr-Cyrl": "2 – УГЛАВНОМ задовољни"
+              }
+            },
+            {
+              "value": "3",
+              "text": {
+                "default": "3 – VIŠE zadovoljni",
+                "sr-Cyrl": "3 – ВИШЕ задовољни"
+              }
+            },
+            {
+              "value": "4",
+              "text": {
+                "default": "4 – VIŠE nezadovoljni",
+                "sr-Cyrl": "4 – ВИШЕ незадовољни"
+              }
+            },
+            {
+              "value": "5",
+              "text": {
+                "default": "5 – UGLAVNOM nezadovoljni",
+                "sr-Cyrl": "5 – УГЛАВНОМ незадовољни"
+              }
+            },
             {
               "value": "6",
               "text": {
-                "default": "6 - Potpuno nezadovoljni",
-                "sr-Cyrl": "6 - ПОТПУНО незадовољни"
+                "default": "6 – POTPUNO nezadovoljni",
+                "sr-Cyrl": "6 – ПОТПУНО незадовољни"
               }
             },
             {
               "value": "ne_znam",
-              "text": { "default": "Ne znam", "sr-Cyrl": "НЕ ЗНАМ" }
+              "text": {
+                "default": "NE ZNAM",
+                "sr-Cyrl": "НЕ ЗНАМ"
+              }
             }
           ],
           "rows": [
@@ -177,7 +204,57 @@
             "default": "Ako jeste, ocenite:",
             "sr-Cyrl": "Ако јесте, оцените:"
           },
-          "columns": ["1", "2", "3", "4", "5", "6", "ne_znam"],
+          "columns": [
+            {
+              "value": "1",
+              "text": {
+                "default": "1 – POTPUNO zadovoljni",
+                "sr-Cyrl": "1 – ПОТПУНО задовољни"
+              }
+            },
+            {
+              "value": "2",
+              "text": {
+                "default": "2 – UGLAVNOM zadovoljni",
+                "sr-Cyrl": "2 – УГЛАВНОМ задовољни"
+              }
+            },
+            {
+              "value": "3",
+              "text": {
+                "default": "3 – VIŠE zadovoljni",
+                "sr-Cyrl": "3 – ВИШЕ задовољни"
+              }
+            },
+            {
+              "value": "4",
+              "text": {
+                "default": "4 – VIŠE nezadovoljni",
+                "sr-Cyrl": "4 – ВИШЕ незадовољни"
+              }
+            },
+            {
+              "value": "5",
+              "text": {
+                "default": "5 – UGLAVNOM nezadovoljni",
+                "sr-Cyrl": "5 – УГЛАВНОМ незадовољни"
+              }
+            },
+            {
+              "value": "6",
+              "text": {
+                "default": "6 – POTPUNO nezadovoljni",
+                "sr-Cyrl": "6 – ПОТПУНО незадовољни"
+              }
+            },
+            {
+              "value": "ne_znam",
+              "text": {
+                "default": "NE ZNAM",
+                "sr-Cyrl": "НЕ ЗНАМ"
+              }
+            }
+          ],
           "rows": [
             {
               "value": "organizacija_sajma",
